@@ -1,7 +1,7 @@
 from cryptography import exceptions
 import os
-from security.key_manager import RSAKeyManager
-from security.crypto import CryptoEngine
+from src.security.key_manager import RSAKeyManager
+from src.security.crypto import CryptoEngine
 
 class SecureSession:
     def __init__(self):
